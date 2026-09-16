@@ -43,7 +43,7 @@ a { text-decoration: none; }
   gap: 40px;
   min-height: 92vh;
   padding: 64px clamp(24px, 8vw, 96px);
-  background: linear-gradient(120deg, oklch(0.94 0.045 160) 0%, oklch(0.975 0.015 160) 42%, #fbfdfc 68%);
+  background: linear-gradient(135deg, oklch(0.9 0.09 155) 0%, oklch(0.96 0.035 170) 30%, oklch(0.97 0.025 230) 58%, oklch(0.95 0.045 240) 100%);
 }
 .hero-dots {
   background-image: radial-gradient(rgba(20,60,45,0.10) 1px, transparent 1px);
@@ -74,10 +74,18 @@ a { text-decoration: none; }
   color: #141e1c;
 }
 .hero-text .lede {
-  margin: 0 0 28px 0;
+  margin: 0 0 20px 0;
   font-size: 19px;
   line-height: 1.55;
   color: #3c4a46;
+  max-width: 440px;
+}
+.hero-text .marathon-quote {
+  margin: 0 0 28px 0;
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  color: #6b7b76;
   max-width: 440px;
 }
 .hero-portrait {
